@@ -1,0 +1,14 @@
+{
+  "testEnvironment": "node",
+  "transform": {
+    "^.+.tsx?$": [
+      "ts-jest",
+      {}
+    ]
+  },
+  "verbose": true,
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "./src/**/*.ts"
+  ]
+}
